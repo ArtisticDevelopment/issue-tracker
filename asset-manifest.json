@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/issue-tracker/static/css/main.5de273b5.css",
+    "main.js": "/issue-tracker/static/js/main.3ede59b2.js",
+    "index.html": "/issue-tracker/index.html",
+    "main.5de273b5.css.map": "/issue-tracker/static/css/main.5de273b5.css.map",
+    "main.3ede59b2.js.map": "/issue-tracker/static/js/main.3ede59b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5de273b5.css",
+    "static/js/main.3ede59b2.js"
+  ]
+}
