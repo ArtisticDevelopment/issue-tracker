@@ -1,38 +1,73 @@
-.App {
+body::-webkit-scrollbar {
+  display: none;
+
+}
+
+
+.App{
   text-align: center;
+  font-family: Roboto;
+  height: 100vh;
+  background-color: rgb(247, 247, 247);
+  padding: 40px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-size: 65px;
+  color: rgb(37, 103, 255);
+  margin: unset;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+hr{
+  width: 50%;
+  border: 1px solid rgb(6, 6, 6, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.grey-card-container{
+  max-width: 725px;
+  
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: white;
+  box-shadow: -1px 2px 9px 3px rgba(0,0,0,0.77);
+-webkit-box-shadow: -1px 2px 9px 3px rgba(0,0,0,0.77);
+-moz-box-shadow: -1px 2px 9px 3px rgba(0,0,0,0.77);
+  margin: 30px auto;
+  padding: 40px 50px 30px;
+  border-radius: 5px;
+
+  
+}
+
+
+
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.view-button {
+margin: 10px auto;
+background-color: white;
+border-radius: 5px;
+padding: 10px 20px;
+color: rgb(0, 47, 255);
+font-family:  'Times New Roman', Times, serif;
+font-size: 17px;
+box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.77);
+-webkit-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.77);
+-moz-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.77);
+border: none;
+}
+
+.view-button:hover{
+  opacity: 0.8;
+}
+
+.active-button{
+  background-color: rgb(255, 187, 0);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: rgb(255, 187, 0);
 }

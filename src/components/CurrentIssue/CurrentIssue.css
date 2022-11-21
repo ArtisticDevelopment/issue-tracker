@@ -1,0 +1,53 @@
+.current-issues{
+  text-align: left;
+  color: #000000;
+  max-height: 360px;
+}
+:root {
+  --shadow: #373737;
+  --scrollbarBG: #eee;
+  --thumbBG: #909090;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  box-shadow: 0 -100vh 0 100vh var(--shadow), 0 0 15px 5px black;
+}
+.current-issues p{
+  margin: 10px 0;
+}
+
+.current-issues p span,
+.description-text{
+  color: #828282;
+}
+
+.current-issues p span{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.current-issues .ind-issue{
+  position: relative;
+}
+
+.current-issues .close-issue {
+  position: absolute;
+  top:  0;
+  right: 0;
+  color: #181818;
+  border: 1px solid #b7b7b7;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.current-issues hr{
+  margin-top: 30px;
+  width: 100%;
+}

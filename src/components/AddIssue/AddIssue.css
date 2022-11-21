@@ -1,0 +1,55 @@
+.add-issue{
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  
+  max-width: 725px;
+  margin: 5px auto;
+
+  text-align: left;
+  
+}
+
+label {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label p {
+  margin-bottom: unset;
+}
+
+label  select{
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input{
+  margin: 5px 10px;
+  padding: 10px;
+}
+
+form button {
+  margin-top: 5px;
+  background-color: #007ae6;
+  color: white;
+  margin: 5px 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+}
+
+select, input {
+  border: 1px solid rgb(39, 39, 39, .1);
+  border-radius: 5px;
+}
+
+label:hover select:hover, input:hover, button:hover{
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.8;
+}
