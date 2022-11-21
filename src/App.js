@@ -1,13 +1,17 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import AddIssue from "./components/AddIssue/AddIssue.js";
 import CurrentIssue from "./components/CurrentIssue/CurrentIssue.js";
 
 function App() {
   const [addIssue, setAddIssue] = useState(true);
 
-  const switchIssue = () => {
-    setAddIssue(!addIssue);
+  const issueTrue = (event) => {
+    setAddIssue(true);
+  };
+
+  const issueFalse = (event) => {
+    setAddIssue(false);
   };
 
   return (
@@ -18,10 +22,10 @@ function App() {
         {addIssue ? <AddIssue /> : <CurrentIssue />}
       </div>
       <div className="buttons">
-        <button className="view-button active-button" onClick={switchIssue}>
+        <button className="view-button active-button" onClick={issueTrue}>
           Add Issue
         </button>
-        <button className="view-button" onClick={switchIssue}>
+        <button className="view-button" onClick={issueFalse}>
           Current Issues
         </button>
       </div>

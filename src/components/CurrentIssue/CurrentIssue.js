@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./CurrentIssue.css";
 
 function CurrentIssue() {
-  const [currentIssue, setCurrentIssue] = useState();
-
   return (
     <div className="current-issues">
       <div className="ind-issue">
