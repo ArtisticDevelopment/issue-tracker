@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import "./AddIssue.css";
 
 function AddIssue() {
-  const [addIssue, setAddIssue] = useState();
+  const [description, setDescription] = useState(true);
+  const [dev, setDev] = useState(true);
+  const [priority, setPriority] = useState(true);
 
   return (
     <div className="add-issue">
@@ -15,6 +17,7 @@ function AddIssue() {
             type="text"
             placeholder="tell us what's going on (max 100 characters)"
             maxLength={100}
+            onKeyUp={() => console.log(this)}
           />
         </label>
         <label>
