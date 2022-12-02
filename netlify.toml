@@ -1,7 +1,10 @@
 # example netlify.toml
+[Settings]
+  ID = "a7600c47-8b0c-46bc-84ff-2e53351eb498"
+
 [build]
   command = "react-scripts build"
-  functions = ".netlify/functions/mongodbAPI.js"
+  functions = ".netlify/functions/"
   publish = "build"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
