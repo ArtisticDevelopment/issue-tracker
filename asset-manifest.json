@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.bc1f2322.css",
-    "main.js": "./static/js/main.0a359942.js",
-    "index.html": "./index.html",
-    "main.bc1f2322.css.map": "./static/css/main.bc1f2322.css.map",
-    "main.0a359942.js.map": "./static/js/main.0a359942.js.map"
+    "main.css": "/issue-tracker/static/css/main.bc1f2322.css",
+    "main.js": "/issue-tracker/static/js/main.0a359942.js",
+    "index.html": "/issue-tracker/index.html",
+    "main.bc1f2322.css.map": "/issue-tracker/static/css/main.bc1f2322.css.map",
+    "main.0a359942.js.map": "/issue-tracker/static/js/main.0a359942.js.map"
   },
   "entrypoints": [
     "static/css/main.bc1f2322.css",
